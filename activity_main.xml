@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="false"
+    android:background="@drawable/bag">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/et"
+        android:orientation="vertical"
+        tools:context="com.example.bangaram.quiz_app.MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ety"
+            android:text="@string/Heading"
+            android:textColor="@color/OldLace"
+            android:textSize="@dimen/tfv"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/OldLace"
+            android:hint="@string/Et"
+            android:inputType="textMultiLine"
+            android:textColor="@color/OldLace"
+            android:textColorHint="@color/OldLace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/et"
+            android:text="@string/q1"
+            android:textColor="@color/OldLace"
+            android:textSize="@dimen/ty"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q1_o1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/o1"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q1_o2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/o2"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q1_o3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/o3"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q1_o4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/o4"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/et"
+            android:text="@string/q2"
+            android:textColor="@color/OldLace"
+            android:textSize="@dimen/ty"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q2_o1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q2o1"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q2_o2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q2o2"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q2_o3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q2o3"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q2_o4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q2o4"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/et"
+            android:text="@string/q3"
+            android:textColor="@color/OldLace"
+            android:textSize="@dimen/ty"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q3_o1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q3o1"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q3_o2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q3o2"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q3_o3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q3o3"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q3_o4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q3o4"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/et"
+            android:text="@string/q4"
+            android:textColor="@color/OldLace"
+            android:textSize="@dimen/ty"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q4_o1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q4o1"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q4_o2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q4o2"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q4_o3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q4o3"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q4_o4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q4o4"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/et"
+            android:text="@string/q5"
+            android:textColor="@color/OldLace"
+            android:textSize="@dimen/ty"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q5_o1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q5o1"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q5_o2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q5o2"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q5_o3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q5o3"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q5_o4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q5o4"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/et"
+            android:text="@string/q6"
+            android:textColor="@color/OldLace"
+            android:textSize="@dimen/ty"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q6_o1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q6o1"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q6_o2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q6o2"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q6_o3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q6o3"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q6_o4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q6o4"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/et"
+            android:text="@string/q7"
+            android:textColor="@color/OldLace"
+            android:textSize="@dimen/ty"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q7_o1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q7o1"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q7_o2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q7o2"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q7_o3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q7o3"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q7_o4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q7o4"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/et"
+            android:text="@string/q8"
+            android:textColor="@color/OldLace"
+            android:textSize="@dimen/ty"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q8_o1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q8o1"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q8_o2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q8o2"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q8_o3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q8o3"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q8_o4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q8o4"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/et"
+            android:text="@string/q9"
+            android:textColor="@color/OldLace"
+            android:textSize="@dimen/ty"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/OldLace"
+            android:hint="@string/e2"
+            android:inputType="textMultiLine"
+            android:textColor="@color/OldLace"
+            android:textColorHint="@color/OldLace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/et"
+            android:text="@string/q10"
+            android:textColor="@color/OldLace"
+            android:textSize="@dimen/ty"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q10_o1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q10o1"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q10_o2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q10o2"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q10_o3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q10o3"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+
+            <RadioButton
+                android:id="@+id/q10_o4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:buttonTint="@color/OldLace"
+                android:text="@string/q10o4"
+                android:textColor="@color/OldLace"
+                android:textSize="@dimen/tty" />
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fty"
+                android:background="@drawable/rounded_button"
+                android:text="@string/sbmt"
+                android:onClick="SubmitQuiz"
+                android:textColor="@color/black" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/etyy"
+                android:background="@drawable/rounded_button"
+                android:text="@string/pa"
+                android:onClick="PlayAgain"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

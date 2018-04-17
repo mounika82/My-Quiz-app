@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Quiz_app</string>
+    <string name="Heading">Quiz on HTML</string>
+    <string name="Et">Enter your name</string>
+    <string name="e2">True/False</string>
+    <string name="sbmt">Submit</string>
+    <string name="sq">SubmitQuiz</string>
+    <string name="pa">Play Again</string>
+   <string name ="np">No problem!!! Learn and Try</string>
+    <string name="lp">Little bit practice needed!!</string>
+ <string name="wd"> Well Done!!</string>
+ <string name="as"> Awesome!!!</string>
+    <string name="q1">1. What does HTML stand for?</string>
+    <string name="o1">Home Tool Markup Language</string>
+    <string name="o2"> Hyper Text Markup Language</string>
+    <string name="o3">Hyperlinks and Text Markup Language</string>
+    <string name="o4">Hyper Tool Markup Language</string>
+    <string name="q2">2. Who is making the Web standards?</string>
+    <string name="q2o1"> Microsoft</string>
+    <string name="q2o2">Mozilla</string>
+    <string name="q2o3">The World Wide Web Consortium</string>
+    <string name="q2o4">Google</string>
+    <string name="q3">3. Choose the correct HTML element for the largest heading:</string>
+    <string name="q3o1"><Data><![CDATA[ <head> ]]> </Data></string>
+    <string name="q3o2"><Data><![CDATA[ <h1> ]]> </Data></string>
+    <string name="q3o3"><Data><![CDATA[ <h6> ]]> </Data></string>
+    <string name="q3o4"><Data><![CDATA[ <heading> ]]> </Data></string>
+    <string name="q4">4. What is the correct HTML element for inserting a line break?</string>
+    <string name="q4o1"><Data><![CDATA[ <break> ]]> </Data></string>
+    <string name="q4o2"><Data><![CDATA[ <br> ]]> </Data></string>
+    <string name="q4o3"><Data><![CDATA[ <lb> ]]> </Data></string>
+    <string name="q4o4"><Data><![CDATA[ <brk> ]]> </Data></string>
+    <string name="q5">5. What is the correct HTML for adding a background color?</string>
+    <string name="q5o1"><Data><![CDATA[ <body style="background-color:yellow;"> ]]> </Data></string>
+    <string name="q5o2"><Data><![CDATA[ <body bg="yellow"> ]]> </Data></string>
+    <string name="q5o3"><Data><![CDATA[<background>yellow</background> ]]> </Data></string>
+    <string name="q5o4"><Data><![CDATA[ <bg="yellow"> ]]> </Data></string>
+    <string name="q6">6. Choose the correct HTML element to define important text</string>
+    <string name="q6o1"><Data><![CDATA[ <strong> ]]> </Data></string>
+    <string name="q6o2"><Data><![CDATA[ <b> ]]> </Data></string>
+    <string name="q6o3"><Data><![CDATA[ <i> ]]> </Data></string>
+    <string name="q6o4"><Data><![CDATA[ <important> ]]> </Data></string>
+    <string name="q7">7. Choose the correct HTML element to define emphasized text</string>
+    <string name="q7o1"><Data><![CDATA[ <i> ]]> </Data></string>
+    <string name="q7o2"><Data><![CDATA[ <e> ]]> </Data></string>
+    <string name="q7o3"><Data><![CDATA[ <em> ]]> </Data></string>
+    <string name="q7o4"><Data><![CDATA[ <emp> ]]> </Data></string>
+    <string name="q8">8. Which character is used to indicate an end tag?</string>
+    <string name="q8o1"><Data><![CDATA[ < ]]> </Data></string>
+    <string name="q8o2"><Data><![CDATA[ * ]]> </Data></string>
+    <string name="q8o3"><Data><![CDATA[ ^ ]]> </Data></string>
+    <string name="q8o4"><Data><![CDATA[ / ]]> </Data></string>
+    <string name="q9" > 9. Inline elements are normally displayed without starting a new line.</string>
+    <string name="q10">10. How can you make a numbered list?</string>
+    <string name="q10o1"><Data><![CDATA[ <ul> ]]> </Data></string>
+    <string name="q10o2"><Data><![CDATA[ <ol> ]]> </Data></string>
+    <string name="q10o3"><Data><![CDATA[ <list> ]]> </Data></string>
+    <string name="q10o4"><Data><![CDATA[ <dl> ]]> </Data></string>
+
+
+</resources>

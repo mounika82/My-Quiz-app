@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tfv">35sp</dimen>
+    <dimen name="ety">75dp</dimen>
+    <dimen name="etyy">80dp</dimen>
+    <dimen name="ty">25sp</dimen>
+    <dimen name="tty">20sp</dimen>
+    <dimen name="et">8dp</dimen>
+    <dimen name="thty">30dp</dimen>
+    <dimen name="ofty">133dp</dimen>
+    <dimen name="fty">50dp</dimen>
+</resources>
